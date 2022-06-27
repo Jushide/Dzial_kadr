@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <title>Logowanie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="modal" id="mdl">
+        <div class="modal-content">
+            <h2>Niepoprawne dane</h2>
+            <span class="close-btn" id="cl-btn">&times;</span>
+        </div>
+    </div>
+    <h2>Login i hasło do panelu admina: <span>admin</span> <span>admin</span></h2>
+    <h2>Login i hasło do panelu użytkownika: <span>guest</span> <span>123</span>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <div class="field">
+                <input type="text" id="log" placeholder="Login" required />
+            </div>
+            <div class="field">
+                <input type="password" id="pass" placeholder="Hasło" required />
+            </div>
+            <input type="button" value="Zaloguj" id="accept" />
+        </form>
+    </div>
+    <a href="Kandydat.php"><h3>Powrót do głównej strony!</h3></a>
+    <script src="assets/js/login.js"></script>
+</body>
+
+</html>
